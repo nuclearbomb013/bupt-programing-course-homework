@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+ <div class="head">
+       <div class="font">
+           欢迎使用抬头率检测程序！
+
+       </div>
+
+   </div>
+ <button onclick="upload()" id="upload">上传图片</button>
+  <button onclick="calculate()" id="jisuan">计算抬头率</button>
+
+
+</body>
+<script src="{{url_for('static',filename='抬头率检测.js')}}"></script>
+<script>
+    document.title="欢迎使用北邮抬头率检测系统"
+</script>
+</html>

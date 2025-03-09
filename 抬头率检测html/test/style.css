@@ -1,0 +1,54 @@
+body{
+    padding:0;
+    margin: 0;
+    background-image: url("image/background.jpg");
+    background-size: cover;
+}
+
+#upload{
+
+    position: relative;
+    top:450px;
+    left:25%;
+     background: linear-gradient(45deg, rgba(126, 255, 223, 0.8), rgba(188, 117, 255, 0.82));
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#upload:hover
+{
+       transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(255, 117, 140, 0.4);
+    color: rgb(0, 255, 255);
+}
+
+
+#jisuan{
+
+    position: relative;
+    top: 450px;
+    left:55%;
+    background: linear-gradient(45deg, rgba(126, 255, 223, 0.8), rgba(188, 117, 255, 0.82));
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#jisuan:hover{
+     transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(255, 117, 140, 0.4);
+    color: aqua;
+}
+
+.head .font{
+    font-size: 50px;
+    color: rgba(247, 247, 247, 0.87);
+    text-align: center;
+}
